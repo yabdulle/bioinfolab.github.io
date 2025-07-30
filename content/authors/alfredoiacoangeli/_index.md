@@ -1,24 +1,24 @@
 ---
 # Display name
-title: Alice Wu 吳恩達
+title: Alfredo Iacoangeli
 
 # Full name (for SEO)
-first_name: Alice
-last_name: Wu
+first_name: Alfredo
+last_name: Iacoangeli
 
 # Username (this should match the folder name)
 authors:
-  - 吳恩達
+  - alfredoiacoangeli
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Professor of Bioinformatics and Artificial Intelligence for Genomic Medicine
 
 # Organizations/Affiliations
 organizations:
-  - name: Stanford University
+  - name: King's College London
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
