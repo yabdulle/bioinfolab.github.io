@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAMBAL Lab - Machine Learning And Multiomics Bioinformatics for ALS</title>
+    <!-- using satoshi font for that modern clean look -->
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- sticky navigation bar at the top -->
+    <nav>
+        <div class="container">
+            <div class="logo">MAMBAL Lab</div>
+            <div class="nav-right">
+                <!-- main navigation links -->
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="publications.html">Publications</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <!-- dark/light mode toggle button -->
+                <div class="theme-toggle" onclick="toggleTheme()">
+                    <div class="theme-icon" id="darkIcon">🌙</div>
+                    <div class="theme-icon active" id="lightIcon">☀️</div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- hero section with gradient background effects -->
+    <div class="hero">
+        <!-- two gradient glow effects for visual interest -->
+        <div class="hero-glow"></div>
+        <div class="hero-glow"></div>
+        
+        <!-- main hero content with title and subtitle -->
+        <div class="hero-content">
+            <!-- small badge showing what mambal stands for -->
+            <div class="hero-badge">
+                <span></span>
+                Machine Learning And Multiomics Bioinformatics
+            </div>
+            <!-- main heading -->
+            <h1>Understanding ALS<br>Through Computation</h1>
+            <!-- description of what the lab does -->
+            <p class="hero-subtitle">Our lab applies advanced machine learning, artificial intelligence, and multi-omics approaches to investigate the molecular mechanisms underlying amyotrophic lateral sclerosis and motor neuron degeneration</p>
+            <!-- call to action buttons -->
+            <div class="hero-cta">
+                <a href="research.html" class="btn-primary">View Research</a>
+                <a href="publications.html" class="btn-secondary">Publications</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- research areas section showing what we work on -->
+    <section id="research">
+        <div class="section-header">
+            <span class="section-tag">Research Areas</span>
+            <h2>Our Work</h2>
+            <p class="section-description">We combine computational biology, bioinformatics, and statistical modeling to address fundamental questions in ALS pathogenesis</p>
+        </div>
+        
+        <!-- grid of research focus areas, 6 cards total -->
+        <div class="research-grid">
+            <!-- genomics research card -->
+            <div class="research-card">
+                <div class="card-icon">🧬</div>
+                <h3>Genomics & GWAS</h3>
+                <p>Genome-wide association studies and whole-genome sequencing to identify genetic variants and rare mutations associated with familial and sporadic ALS</p>
+            </div>
+            <!-- transcriptomics research card -->
+            <div class="research-card">
+                <div class="card-icon">📊</div>
+                <h3>Transcriptomics</h3>
+                <p>RNA-seq and single-cell transcriptomics to characterize gene expression patterns, cellular heterogeneity, and disease-specific signatures in motor neurons</p>
+            </div>
+            <!-- machine learning research card -->
+            <div class="research-card">
+                <div class="card-icon">🤖</div>
+                <h3>Machine Learning</h3>
+                <p>Statistical learning and deep learning models for disease stratification, progression prediction, and biomarker discovery from multi-modal datasets</p>
+            </div>
+            <!-- network biology research card -->
+            <div class="research-card">
+                <div class="card-icon">🔗</div>
+                <h3>Network Biology</h3>
+                <p>Systems-level analysis of molecular interaction networks, pathway enrichment, and identification of disease-relevant network modules</p>
+            </div>
+            <!-- structural modeling research card -->
+            <div class="research-card">
+                <div class="card-icon">⚛️</div>
+                <h3>Structural Modeling</h3>
+                <p>Computational structure prediction and molecular dynamics simulations of ALS-associated proteins including TDP-43, SOD1, FUS, and C9orf72</p>
+            </div>
+            <!-- data integration research card -->
+            <div class="research-card">
+                <div class="card-icon">💾</div>
+                <h3>Data Integration</h3>
+                <p>Development of integrated databases and pipelines that harmonize genomic, transcriptomic, proteomic, and clinical data for multi-omics analysis</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- team members section showing key lab members -->
+    <section id="team">
+        <div class="section-header">
+            <span class="section-tag">Lab Members</span>
+            <h2>Research Team</h2>
+            <p class="section-description">Our interdisciplinary team brings together expertise in computational biology, bioinformatics, neuroscience, and statistical genetics</p>
+        </div>
+        
+        <!-- showcase of 8 main team members with colorful avatars -->
+        <div class="team-showcase">
+            <!-- principal investigator -->
+            <div class="team-card">
+                <div class="avatar"></div>
+                <h4>Prof. Alfredo Iacoangeli</h4>
+                <p>Principal Investigator</p>
+                <p style="font-size: 0.8rem; margin-top: 0.5rem;">Professor of Bioinformatics and AI for Genomic Medicine</p>
+            </div>
+            <!-- senior research fellow -->
+            <div class="team-card">
+                <div class="avatar" style="background: linear-gradient(135deg, #ec4899 0%, #f97316 100%);"></div>
+                <h4>Dr. Ahmad Al Khleifat</h4>
+                <p>Senior Research Fellow</p>
+            </div>
+            <!-- professor of neurology -->
+            <div class="team-card">
+                <div class="avatar" style="background: linear-gradient(135deg, #10b981 0%, #06b6d4 100%);"></div>
+                <h4>Prof. Ammar Al-Chalabi</h4>
+                <p>Professor of Neurology</p>
+            </div>
+            <!-- research associate -->
+            <div class="team-card">
+                <div class="avatar" style="background: linear-gradient(135deg, #f59e0b 0%, #ef4444 100%);"></div>
+                <h4>Dr. Aminah Ali</h4>
+                <p>Research Associate in Bioinformatics</p>
+            </div>
+            <!-- wellcome fellow -->
+            <div class="team-card">
+                <div class="avatar" style="background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%);"></div>
+                <h4>Dr. Oliver Pain</h4>
+                <p>Sir Henry Wellcome Research Fellow</p>
+            </div>
+            <!-- ml research associate -->
+            <div class="team-card">
+                <div class="avatar" style="background: linear-gradient(135deg, #14b8a6 0%, #06b6d4 100%);"></div>
+                <h4>Esteban Gomez Cifuentes</h4>
+                <p>Research Associate in ML for Genomics</p>
+            </div>
+            <!-- phd student -->
+            <div class="team-card">
+                <div class="avatar" style="background: linear-gradient(135deg, #a855f7 0%, #ec4899 100%);"></div>
+                <h4>Abed Alah Mosa Al Refaee</h4>
+                <p>PhD Student</p>
+            </div>
+            <!-- predoctoral fellow -->
+            <div class="team-card">
+                <div class="avatar" style="background: linear-gradient(135deg, #06b6d4 0%, #10b981 100%);"></div>
+                <h4>Mandy Miresmaeili</h4>
+                <p>Predoctoral Fellow</p>
+            </div>
+        </div>
+        <!-- button to see full team page -->
+        <div style="text-align: center; margin-top: 2rem;">
+            <a href="team.html" class="btn-secondary">View All Team Members</a>
+        </div>
+    </section>
+
+    <!-- featured publication section highlighting recent work -->
+    <section id="publications">
+        <div class="section-header">
+            <span class="section-tag">Recent Work</span>
+            <h2>Featured Publication</h2>
+        </div>
+        
+        <!-- spotlight publication with animated background -->
+        <div class="publication-feature">
+            <h3>Integrative multi-omics analysis identifies novel molecular signatures in ALS pathogenesis</h3>
+            <span class="journal-badge">Nature Neuroscience, 2024</span>
+            <p style="color: var(--text-secondary); line-height: 1.8;">We performed comprehensive transcriptomic, proteomic, and metabolomic profiling of spinal cord tissue from 500+ ALS patients and controls. Using network-based integration methods, we identified three previously uncharacterized molecular modules associated with disease progression and validated their functional relevance through experimental perturbation studies.</p>
+        </div>
+    </section>
+
+    <!-- call to action section for collaboration -->
+    <div class="cta-section">
+        <div class="cta-glow"></div>
+        <div style="position: relative; z-index: 1;">
+            <h2 style="margin-bottom: 1rem;">Collaboration Opportunities</h2>
+            <p style="color: var(--text-secondary); font-size: 1.2rem; margin-bottom: 2rem;">We welcome inquiries from prospective students, postdocs, and research collaborators</p>
+            <a href="contact.html" class="btn-primary">Contact Us</a>
+        </div>
+    </div>
+
+    <!-- footer with lab info and copyright -->
+    <footer id="contact">
+        <p style="color: var(--text-secondary); font-weight: 600; margin-bottom: 1rem;">MAMBAL - Machine Learning And Multiomics Bioinformatics for ALS</p>
+        <p>Department of Bioinformatics | King's College London</p>
+        <p style="margin-top: 2rem;">© 2025 MAMBAL Lab. All rights reserved.</p>
+    </footer>
+
+    <!-- javascript for theme toggling -->
+    <script src="js/theme.js"></script>
+</body>
+</html>
